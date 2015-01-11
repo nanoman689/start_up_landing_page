@@ -47,3 +47,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Actual Code Starts Here */
+
+/* Remove these two elements before going live */
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+/* Top nagivation bar */
+
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.top-navigation .links{
+	float: right;
+	margin-top: 1em;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+}
+
+/* Introduction secion */
+
+.introduction {
+	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	color: white;
+}
+
+.content {
+	margin: 0 auto;
+}
