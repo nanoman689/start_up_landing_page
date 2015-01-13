@@ -31,6 +31,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -51,18 +52,38 @@ ol, ul {
 
 .content {
     padding: 0 15px;
+    margin: 0 auto;
+    width: 970px;
+    height: 70px;
+    padding:0;
+    min-width: 20rem;
 }
 
 /* Navigation Section */
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
+
+/* move to other .content
+
 .top-navigation > .content {
     margin: 0 auto;
     width: 970px;
     height: 70px;
 }
+
+.content {
+    padding:0;
+    margin: 0 auto;
+    min-width: 20rem;
+
+}
+-------------------- */
+
 .top-navigation .logo {
     height: 70px;
 }
@@ -96,6 +117,7 @@ ol, ul {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    color: #FFF;
 }
 
 .introduction .buttons {
@@ -104,12 +126,6 @@ ol, ul {
 	margin-top: 1.5rem;
 }
 
-.content {
-	padding:0;
-	margin: 0 auto;
-	min-width: 20rem;
-
-}
 
 .big-button {
     text-shadow: none;
@@ -117,4 +133,19 @@ ol, ul {
     border-radius: 4px;
     padding: 16px 26px;
     line-height: 1.33;
+    margin:0 auto;
 }
+
+/* Three icon section */
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+ 
+ /* styles to assist with debugging */
+ 
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+
