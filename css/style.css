@@ -153,5 +153,43 @@ ol, ul {
     font-size: 1rem;
 }
 
+/* Everyone needs a little Karma */
+
+.cases .devices {
+    width: 33.333333%;
+    display: inline-block;
+    padding: 5px;
+    float:left;
+}
+
+.cases .content {
+    margin-top: 6rem;
+}
+
+.cases .content h2 {
+    text-align: center;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+/* Footer */
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9rem;
+    text-align: center;
+}
+
+.social .icon {
+    border-radius: 1.25rem;
+}
+
 /* End of Introduction */
 
