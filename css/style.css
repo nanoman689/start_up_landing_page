@@ -156,11 +156,15 @@ ol, ul {
 /* Everyone needs a little Karma */
 
 .cases .devices {
-    width: 33.333333%;
-    display: inline-block;
+    margin: 0 auto;
+    width: 60%;
     padding: 5px;
-    float:left;
 }
+
+.cases .devices li {
+    display: inline-block;
+}
+
 
 .cases .content {
     margin-top: 6rem;
@@ -187,8 +191,12 @@ ol, ul {
     text-align: center;
 }
 
-.social .icon {
+.social .icons {
     border-radius: 1.25rem;
+}
+
+.social .icons li {
+    display: inline-block;
 }
 
 /* End of Introduction */
