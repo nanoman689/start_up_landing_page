@@ -55,12 +55,9 @@ ol, ul {
     padding: 0 15px;
     margin: 0 auto;
     width: 970px;
-<<<<<<< HEAD
     height: 70px;
     padding:0;
     min-width: 20rem;
-=======
->>>>>>> FETCH_HEAD
 }
 
 /* Navigation Section */
@@ -71,20 +68,6 @@ ol, ul {
     width: 100%;
     z-index: 9999;
 }
-
-/* move to other .content
-
-.top-navigation > .content {
-    height: 70px;
-}
-
-.content {
-    padding:0;
-    margin: 0 auto;
-    min-width: 20rem;
-
-}
--------------------- */
 
 .top-navigation .logo {
     height: 70px;
@@ -131,9 +114,6 @@ ol, ul {
     border-radius: 4px;
 	margin-top: 1.5rem;
 }
-
-<<<<<<< HEAD
-=======
 .introduction .content h1 {
     margin-top: 1rem;
     font-size: 3rem;
@@ -145,7 +125,6 @@ ol, ul {
     margin-top: 1.25rem;
     font-size: 1.56rem;
 }
->>>>>>> FETCH_HEAD
 
 .introduction .content {
     padding-top: 270px;
@@ -168,10 +147,7 @@ ol, ul {
     background-color: #f15a29;
     border-color: #f15a29;
     border-radius: 4px;
-<<<<<<< HEAD
     padding: 1rem 0;
-=======
-<<<<<<< HEAD
     padding: 16px 26px;
     line-height: 1.33;
     margin:0 auto;
@@ -190,11 +166,6 @@ ol, ul {
     height: 4em;
 }
 
-=======
-    padding: 1rem 1.5rem;
->>>>>>> FETCH_HEAD
-}
-
 .introduction .content button {
     width: 9rem;
     border: none;
@@ -206,18 +177,10 @@ ol, ul {
 
 /* Everyone needs a little Karma */
 
-/* 
-.cases .devices {
-    margin: 0 auto;
-    padding: 5px;
-}
-*/ 
-
 .cases .devices li {
     display: inline-block;
     padding-bottom: 5rem;
 }
-
 
 .cases .content {
     margin-top: 6rem;
@@ -282,5 +245,3 @@ ol, ul {
 }
 
 /* End of Introduction */
-
->>>>>>> FETCH_HEAD
