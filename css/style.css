@@ -141,29 +141,13 @@ ol, ul {
 
 .introduction .content .big-button {
     border-style: none;
-    margin: 0 auto;
-    margin-top: 1.4rem;
     width: 9rem;
     background-color: #f15a29;
     border-color: #f15a29;
     border-radius: 4px;
-    padding: 1rem 0;
-    padding: 16px 26px;
+    padding: 18px 26px;
     line-height: 1.33;
     margin:0 auto;
-}
-
-/* Three icon section */
-
-.cases .devices {
-    width: 33.3333333%;
-    display: inline-block;
- 
- /* styles to assist with debugging */
- 
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
 }
 
 .introduction .content button {
@@ -173,11 +157,19 @@ ol, ul {
     color: white;
     cursor: pointer;
     font-size: 1rem;
+    padding: 0 3rem 0 0;
+}
+
+/* Three icon section */
+
+.cases .devices li {
+    display: inline-block;
+ 
 }
 
 /* Everyone needs a little Karma */
 
-.cases .devices li {
+.cases .devices ul {
     display: inline-block;
     padding-bottom: 5rem;
 }
@@ -209,6 +201,7 @@ ol, ul {
 }
 
 .social {
+    padding-top: 300px;
     background-color: #fff;
     overflow: auto;
     padding-bottom: 9rem;
